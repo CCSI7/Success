@@ -1,0 +1,262 @@
+body{
+    width: 100%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+
+    
+}
+
+.generalContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+.firstContainer{
+    /* width: 1280px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstContainer .my-card{
+  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 40em !important;
+height: 48em !important;
+background: #FFBC4A;
+
+/* padding-bottom: 25%; */
+
+
+
+
+}
+.firstContainer .my-card{
+    background-color:#DFA441 ;
+}
+.my-logo{
+    /* padding: 0px 40px; */
+margin: auto;
+width: 200px;
+height: 100px;
+
+
+}
+.card img.banner1{
+    transform: scale(.7,.7);
+  
+}
+.flexOne{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -100px;
+margin-left: 50px;
+}
+.flexOne .playButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+.flexOne .playButtons img{
+   
+/* margin-left: 5px; */
+width: 25px;
+height: 25px;
+
+
+}
+.card-body{
+    margin-top: -70px;
+    /* Beyond “Good Job”: How to Give Impactful Feedback */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+
+
+}
+.my-span{
+    font-weight: 800;
+}
+.my-paragragraph{
+    font-size: 32px;
+    font-weight: 800;
+} 
+.hero-bottom{
+margin-top: 100px;
+padding-top: 10%;
+}
+.hero-bottom .card{
+    background-color: transparent;
+    border: none;
+
+    
+}
+
+.my-hero-btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+
+
+}
+.my-hero-btm h1{
+    font-size: 25px;
+}
+.first-hero-btm span{
+    font-size: 15px;
+}
+.two-hero-btm{
+display: flex;
+justify-self: center;
+align-items: center;
+margin-right: -35px;
+
+text-transform: uppercase;
+
+
+
+
+
+}
+
+
+/* second container */ 
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+   
+
+}
+.secondTopText, .thirdTopText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #000000; */
+    width: 600px;
+    padding: 5%;
+    font-weight: bolder;
+}
+.secondTopTextTwo, .thirdTopTextTwo, .fifthTopTextTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.secondTopText h3,.thirdTopText h3, .fifthTopTextTwo h3{
+    font-weight: 900;
+}
+.secondTopText span, .thirdTopText span, .fifthTopTextTwo span{
+    font-size: 12px;
+    font-weight: 800;
+}
+.second-container .card-two .modifyCard{
+    width: 32em !important;
+    height: 30em !important; 
+    padding: 2%;
+}
+.cardTitle1, .cardText2ndType{
+margin-top: 30%;
+font-weight: 700;
+font-size: 10px;
+color: #FFFFFF;
+text-align: left;
+padding: 2px 5px 0 5px;
+gap: 10px;
+width: 115px;
+height: 17px;
+background: #000000;
+}
+.cardText2{
+    font-size: 12px;
+}
+.nobordercard{
+    border: none;
+}
+.listens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listens p{
+    margin-right: 5px;
+}
+.cardtitile-two{
+    width: 35px; ;
+}
+.listens p:nth-child(2),
+.listens p:nth-child(3),
+.listens p:nth-child(4){
+    background: #CDF567;
+}
+.thirdTopTextOne h3:nth-child(3){
+    font-weight: 400;
+}
+.thirdTopTextTwo{
+    float: right;
+    width: 300px;
+
+}
+.mycarousel img{
+    transform: scale(.7);
+}
+
+.carouselCont{
+    
+margin-top: -100px;
+}
+.mycarouselitem{
+    display: flex;
+    
+}
+.mycarousel h4, 
+.mycarousel p{
+    text-align: center;
+}
+.fourthContainer{
+    margin-top: 10%;
+
+}
+.fourthContainer h1{
+    margin-top: 10%;
+}
+.fourthcard{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 5% 3% 10% ;
+}
+.myform input{
+    width: 400px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.myform button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.fourthcard small{
+    font-weight: 400;
+}
+.fifthTopText{
+    display: flex;
+    flex-direction: column;
+}
